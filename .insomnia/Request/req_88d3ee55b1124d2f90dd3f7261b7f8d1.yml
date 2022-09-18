@@ -1,0 +1,30 @@
+_id: req_88d3ee55b1124d2f90dd3f7261b7f8d1
+type: Request
+parentId: wrk_8a47ea29f7054a50b25302da2d2fc7db
+modified: 1663503573780
+created: 1663219226508
+url: localhost:5000/note
+name: note
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"start_date": "2022-09-01T00:00:00.000Z",
+    	"end_date": "2022-09-31T00:00:00.000Z"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e51ae5c257224a4287f482cb2432eb3d
+authentication: {}
+metaSortKey: -1663126938382
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
